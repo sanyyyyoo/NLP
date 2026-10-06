@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marathi News Analyser</title>
+  <meta name="description" content="{{ title }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,600&family=Tiro+Devanagari+Marathi&family=Mukta:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- ================= FRONT PAGE ================= -->
+<section id="page-front" class="front">
+  <div class="front-inner">
+    <div class="topline">
+      <span class="edition">Vol. VII · AIDS · NLP Edition</span>
+      <div class="lang-switch" role="group" aria-label="Interface language">
+        <button type="button" data-ui-lang="mr">मराठी</button>
+        <button type="button" data-ui-lang="en">English</button>
+      </div>
+    </div>
+
+    <p class="dept">Artificial Intelligence and Data Science</p>
+    <p class="kicker">Natural Language Processing Mini-Project</p>
+
+    <article class="topic">
+      <p class="eyebrow">📰 Project Topic</p>
+      <h1>Dictionary-Based Bilingual (Marathi &amp; English) Newspaper Headline Classifier &amp; Sentiment Tagger</h1>
+      <p class="topic-sub" data-i18n="subtitle_topic"></p>
+    </article>
+
+    <div class="cred-grid">
+      <div class="cred">
+        <p class="eyebrow">Submitted by</p>
+        <p class="cred-name">{{ student.name }}</p>
+        <p class="cred-line">Roll No: {{ student.roll }}</p>
+        <p class="cred-line">Batch: {{ student.batch }}</p>
+      </div>
+      <div class="cred">
+        <p class="eyebrow">Dictionary dataset</p>
+        <p class="cred-line">News sections: <b>{{ stats.categories }}</b></p>
+        <p class="cred-line">Marathi: <b>{{ stats.mr.category_words }}</b> keywords, <b>{{ stats.mr.positive_words }}</b>+ / <b>{{ stats.mr.negative_words }}</b>− sentiment words</p>
+        <p class="cred-line">English: <b>{{ stats.en.category_words }}</b> keywords, <b>{{ stats.en.positive_words }}</b>+ / <b>{{ stats.en.negative_words }}</b>− sentiment words</p>
+        <p class="cred-line">Modifiers: <b>{{ stats.mr.intensifiers + stats.en.intensifiers }}</b> intensifiers, <b>{{ stats.mr.negations + stats.en.negations }}</b> negations</p>
+      </div>
+    </div>
+
+    <div class="launch-row">
+      <button type="button" id="btn-launch" class="btn btn-accent btn-lg" data-i18n="launch"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WORKSPACE ================= -->
+<section id="page-workspace" class="workspace" hidden>
+  <div class="ws-inner">
+    <div class="ws-bar">
+      <button type="button" id="btn-back" class="btn btn-slate btn-sm" data-i18n="back"></button>
+      <div class="ws-bar-right">
+        <div class="lang-switch light" role="group" aria-label="Interface language">
+          <button type="button" data-ui-lang="mr">मराठी</button>
+          <button type="button" data-ui-lang="en">English</button>
+        </div>
+        <button type="button" id="btn-dataset" class="btn btn-sky btn-sm" data-i18n="viewer_btn"></button>
+      </div>
+    </div>
+
+    <header class="ws-head">
+      <h2 data-i18n="ws_title"></h2>
+      <p data-i18n="ws_subtitle"></p>
+    </header>
+
+    <form id="analyse-form" class="input-block" autocomplete="off">
+      <div class="field-row">
+        <label for="sample" data-i18n="sample"></label>
+        <select id="sample">
+          <option value="" data-i18n="sample_pick"></option>
+          {% for s in samples %}<option>{{ s }}</option>{% endfor %}
+        </select>
+      </div>
+
+      <div class="field-row field-row-split">
+        <label for="news-text" data-i18n="input"></label>
+        <span id="lang-detected" class="lang-detected"></span>
+      </div>
+      <textarea id="news-text" rows="3" maxlength="5000">{{ samples[0] }}</textarea>
+
+      <div class="btn-row">
+        <button type="submit" id="btn-analyse" class="btn btn-accent grow" data-i18n="analyse"></button>
+        <label class="btn btn-dark" for="file-input"><span data-i18n="load"></span></label>
+        <input type="file" id="file-input" accept=".txt,text/plain" hidden>
+        <button type="button" id="btn-clear" class="btn btn-muted" data-i18n="clear"></button>
+      </div>
+      <p id="form-error" class="form-error" role="alert" hidden></p>
+    </form>
+
+    <div class="result-cards">
+      <div class="card card-section">
+        <p class="card-label" data-i18n="section"></p>
+        <p id="category" class="category-main">—</p>
+        <p id="category-alt" class="category-alt"></p>
+      </div>
+      <div class="card card-tone">
+        <p class="card-label" data-i18n="tone"></p>
+        <p id="tone" class="tone-pill tone-Neutral">—</p>
+        <p id="score" class="score"></p>
+      </div>
+    </div>
+
+    <p class="block-label indigo" data-i18n="confidence"></p>
+    <div id="bars" class="bars"></div>
+
+    <p class="block-label rust" data-i18n="log"></p>
+    <div id="log" class="log" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ================= DATASET VIEWER ================= -->
+<dialog id="dataset-dialog" class="dataset">
+  <div class="dataset-head">
+    <h3 data-i18n="viewer_title"></h3>
+    <button type="button" id="btn-close-dataset" class="btn btn-muted btn-sm" aria-label="Close">✕</button>
+  </div>
+  <div class="dataset-tools">
+    <label for="dataset-search" data-i18n="search"></label>
+    <input id="dataset-search" type="search">
+  </div>
+  <div class="tabs" role="tablist" id="dataset-tabs"></div>
+  <div class="table-wrap"><table id="dataset-table"><thead></thead><tbody></tbody></table></div>
+</dialog>
+
+<script id="boot-data" type="application/json">{{ {"categories": categories}|tojson }}</script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
