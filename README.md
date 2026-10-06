@@ -19,7 +19,7 @@ There are two front-ends over the same NLP engine and dictionaries.
 
 ```bash
 pip install -r requirements.txt
-python server.py
+python app.py
 ```
 
 Open http://127.0.0.1:5000
@@ -27,17 +27,17 @@ Open http://127.0.0.1:5000
 **Desktop version (Tkinter)**: no extra packages needed.
 
 ```bash
-python app.py
+python desktop_app.py
 ```
 
 ## Deploy the web version
 
-The repo is ready for any Python host that runs `gunicorn server:app`.
+The repo is ready for any Python host that runs `gunicorn app:app`.
 
 - **Render**: New → Blueprint → pick this repo. `render.yaml` sets the build/start commands and the `/health` check.
-  (Or New → Web Service with build `pip install -r requirements.txt` and start `gunicorn server:app`.)
+  (Or New → Web Service with build `pip install -r requirements.txt` and start `gunicorn app:app`.)
 - **Railway / Heroku-style hosts**: they read `Procfile` automatically.
-- **PythonAnywhere**: point the WSGI file at `from server import app as application`.
+- **PythonAnywhere**: point the WSGI file at `from app import app as application`.
 
 Student details shown on the front page live in `project_info.py`.
 
@@ -71,6 +71,6 @@ text → language ID (per word, by script) → normalisation → tokenisation
 ## Files
 
 - `nlp_engine.py` — NLP pipeline (no GUI; shared by both front-ends)
-- `server.py`, `templates/`, `static/` — web version (Flask)
-- `app.py` — desktop version (Tkinter)
+- `app.py`, `templates/`, `static/` — web version (Flask)
+- `desktop_app.py` — desktop version (Tkinter)
 - `project_info.py` — student details and sample headlines

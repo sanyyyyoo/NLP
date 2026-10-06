@@ -1,4 +1,4 @@
-"""Details shared by the desktop (app.py) and web (server.py) versions."""
+"""Details shared by the desktop (desktop_app.py) and web (app.py) versions."""
 
 # ---- Edit these before submission ---------------------------------------
 STUDENT_NAME = "Sanyogita"
