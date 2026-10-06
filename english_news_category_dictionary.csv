@@ -1,0 +1,194 @@
+word,category,weight,marathi_meaning
+election,Politics,2,निवडणूक
+vote,Politics,2,मत
+voting,Politics,2,मतदान
+voter,Politics,2,मतदार
+mla,Politics,2,आमदार
+mp,Politics,2,खासदार
+minister,Politics,2,मंत्री
+chief minister,Politics,2,मुख्यमंत्री
+cm,Politics,2,मुख्यमंत्री
+pm,Politics,2,पंतप्रधान
+government,Politics,1,सरकार
+govt,Politics,1,सरकार
+assembly,Politics,2,विधानसभा
+parliament,Politics,2,संसद
+party,Politics,1,पक्ष
+bjp,Politics,2,भाजप
+congress,Politics,2,काँग्रेस
+candidate,Politics,2,उमेदवार
+campaign,Politics,1,प्रचार
+rally,Politics,1,सभा
+opposition,Politics,2,विरोधक
+coalition,Politics,2,युती
+alliance,Politics,2,आघाडी
+governor,Politics,2,राज्यपाल
+corporator,Politics,2,नगरसेवक
+manifesto,Politics,2,जाहीरनामा
+resign,Politics,2,राजीनामा देणे
+resignation,Politics,2,राजीनामा
+policy,Politics,1,धोरण
+cricket,Sports,2,क्रिकेट
+match,Sports,2,सामना
+batsman,Sports,2,फलंदाज
+batter,Sports,2,फलंदाज
+bowler,Sports,2,गोलंदाज
+runs,Sports,2,धावा
+century,Sports,2,शतक
+wicket,Sports,2,विकेट
+team,Sports,1,संघ
+captain,Sports,2,कर्णधार
+player,Sports,2,खेळाडू
+tournament,Sports,2,स्पर्धा
+football,Sports,2,फुटबॉल
+hockey,Sports,2,हॉकी
+kabaddi,Sports,2,कबड्डी
+wrestling,Sports,2,कुस्ती
+olympics,Sports,2,ऑलिम्पिक
+medal,Sports,2,पदक
+world cup,Sports,2,विश्वचषक
+stadium,Sports,2,स्टेडियम
+tennis,Sports,2,टेनिस
+badminton,Sports,2,बॅडमिंटन
+championship,Sports,2,अजिंक्यपद
+ipl,Sports,2,आयपीएल
+goal,Sports,1,गोल
+coach,Sports,2,प्रशिक्षक
+market,Business & Economy,1,बाजार
+share,Business & Economy,1,शेअर
+stock,Business & Economy,2,समभाग
+sensex,Business & Economy,2,सेन्सेक्स
+nifty,Business & Economy,2,निफ्टी
+investment,Business & Economy,2,गुंतवणूक
+investor,Business & Economy,2,गुंतवणूकदार
+bank,Business & Economy,2,बँक
+loan,Business & Economy,1,कर्ज
+interest rate,Business & Economy,2,व्याजदर
+inflation,Business & Economy,2,महागाई
+budget,Business & Economy,2,अर्थसंकल्प
+gst,Business & Economy,2,जीएसटी
+tax,Business & Economy,2,कर
+company,Business & Economy,1,कंपनी
+industry,Business & Economy,1,उद्योग
+trade,Business & Economy,2,व्यापार
+export,Business & Economy,2,निर्यात
+import,Business & Economy,2,आयात
+rupee,Business & Economy,2,रुपया
+dollar,Business & Economy,2,डॉलर
+profit,Business & Economy,2,नफा
+rbi,Business & Economy,2,रिझर्व्ह बँक
+gold,Business & Economy,1,सोने
+economy,Business & Economy,2,अर्थव्यवस्था
+gdp,Business & Economy,2,सकल देशांतर्गत उत्पादन
+startup,Business & Economy,2,स्टार्टअप
+film,Entertainment,2,चित्रपट
+movie,Entertainment,2,चित्रपट
+cinema,Entertainment,2,सिनेमा
+actor,Entertainment,2,अभिनेता
+actress,Entertainment,2,अभिनेत्री
+director,Entertainment,1,दिग्दर्शक
+drama,Entertainment,2,नाटक
+serial,Entertainment,2,मालिका
+song,Entertainment,2,गाणे
+singer,Entertainment,2,गायक
+music,Entertainment,2,संगीत
+bollywood,Entertainment,2,बॉलिवूड
+release,Entertainment,1,प्रदर्शित
+trailer,Entertainment,2,ट्रेलर
+award,Entertainment,1,पुरस्कार
+artist,Entertainment,2,कलाकार
+audience,Entertainment,2,प्रेक्षक
+box office,Entertainment,2,बॉक्स ऑफिस
+web series,Entertainment,2,वेबसीरिज
+hospital,Health,2,रुग्णालय
+doctor,Health,2,डॉक्टर
+patient,Health,2,रुग्ण
+disease,Health,2,आजार
+vaccine,Health,2,लस
+vaccination,Health,2,लसीकरण
+treatment,Health,2,उपचार
+medicine,Health,2,औषध
+health,Health,2,आरोग्य
+outbreak,Health,2,साथ
+dengue,Health,2,डेंग्यू
+malaria,Health,2,मलेरिया
+covid,Health,2,कोरोना
+infection,Health,2,संसर्ग
+surgery,Health,2,शस्त्रक्रिया
+cancer,Health,2,कर्करोग
+diabetes,Health,2,मधुमेह
+medical,Health,2,वैद्यकीय
+school,Education,2,शाळा
+college,Education,2,महाविद्यालय
+university,Education,2,विद्यापीठ
+student,Education,2,विद्यार्थी
+teacher,Education,2,शिक्षक
+exam,Education,2,परीक्षा
+examination,Education,2,परीक्षा
+result,Education,1,निकाल
+ssc,Education,2,दहावी
+hsc,Education,2,बारावी
+admission,Education,2,प्रवेश
+syllabus,Education,2,अभ्यासक्रम
+scholarship,Education,2,शिष्यवृत्ती
+degree,Education,2,पदवी
+professor,Education,2,प्राध्यापक
+education,Education,2,शिक्षण
+board,Education,1,बोर्ड
+rain,Weather & Agriculture,2,पाऊस
+rainfall,Weather & Agriculture,2,पर्जन्यमान
+monsoon,Weather & Agriculture,2,मान्सून
+weather,Weather & Agriculture,2,हवामान
+farmer,Weather & Agriculture,2,शेतकरी
+farming,Weather & Agriculture,2,शेती
+agriculture,Weather & Agriculture,2,कृषी
+crop,Weather & Agriculture,2,पीक
+cotton,Weather & Agriculture,2,कापूस
+soybean,Weather & Agriculture,2,सोयाबीन
+sugarcane,Weather & Agriculture,2,ऊस
+onion,Weather & Agriculture,2,कांदा
+hailstorm,Weather & Agriculture,2,गारपीट
+drought,Weather & Agriculture,2,दुष्काळ
+flood,Weather & Agriculture,2,पूर
+dam,Weather & Agriculture,2,धरण
+temperature,Weather & Agriculture,2,तापमान
+heatwave,Weather & Agriculture,2,उष्णतेची लाट
+cyclone,Weather & Agriculture,2,चक्रीवादळ
+msp,Weather & Agriculture,2,हमीभाव
+police,Crime & Accidents,2,पोलीस
+crime,Crime & Accidents,2,गुन्हा
+arrest,Crime & Accidents,2,अटक
+theft,Crime & Accidents,2,चोरी
+thief,Crime & Accidents,2,चोर
+murder,Crime & Accidents,2,खून
+accused,Crime & Accidents,2,आरोपी
+court,Crime & Accidents,1,न्यायालय
+investigation,Crime & Accidents,2,तपास
+fraud,Crime & Accidents,2,फसवणूक
+robbery,Crime & Accidents,2,दरोडा
+bribe,Crime & Accidents,2,लाच
+jail,Crime & Accidents,2,तुरुंग
+custody,Crime & Accidents,2,कोठडी
+bail,Crime & Accidents,2,जामीन
+accident,Crime & Accidents,2,अपघात
+raid,Crime & Accidents,2,छापा
+scam,Crime & Accidents,2,घोटाळा
+mobile,Science & Technology,2,मोबाइल
+internet,Science & Technology,2,इंटरनेट
+smartphone,Science & Technology,2,स्मार्टफोन
+computer,Science & Technology,2,संगणक
+app,Science & Technology,2,ॲप
+software,Science & Technology,2,सॉफ्टवेअर
+ai,Science & Technology,2,कृत्रिम बुद्धिमत्ता
+artificial intelligence,Science & Technology,2,कृत्रिम बुद्धिमत्ता
+cyber,Science & Technology,2,सायबर
+digital,Science & Technology,2,डिजिटल
+isro,Science & Technology,2,इस्रो
+satellite,Science & Technology,2,उपग्रह
+space,Science & Technology,2,अंतराळ
+rocket,Science & Technology,2,रॉकेट
+technology,Science & Technology,2,तंत्रज्ञान
+online,Science & Technology,2,ऑनलाइन
+website,Science & Technology,2,संकेतस्थळ
+robot,Science & Technology,2,रोबोट
+launch,Science & Technology,1,प्रक्षेपण

@@ -1,0 +1,264 @@
+word,category,score,english_meaning
+चांगला,positive,2,good (m)
+चांगली,positive,2,good (f)
+चांगले,positive,2,good (n/pl)
+छान,positive,2,nice
+सुंदर,positive,2,beautiful
+सुरेख,positive,2,lovely
+उत्तम,positive,3,excellent
+उत्कृष्ट,positive,3,outstanding
+अप्रतिम,positive,3,wonderful
+अद्भुत,positive,3,amazing
+सर्वोत्तम,positive,3,best
+सर्वोत्कृष्ट,positive,3,finest
+अविस्मरणीय,positive,3,unforgettable
+लाजवाब,positive,3,superb
+भन्नाट,positive,3,fantastic
+झकास,positive,3,superb
+मस्त,positive,2,great
+भारी,positive,2,awesome
+आनंद,positive,2,joy
+आनंदी,positive,2,happy
+आनंदित,positive,2,delighted
+खुश,positive,2,happy
+प्रसन्न,positive,2,cheerful
+सुख,positive,2,happiness
+सुखी,positive,2,content
+सुखद,positive,2,pleasant
+आल्हाददायक,positive,2,pleasant
+प्रेम,positive,2,love
+प्रेमळ,positive,2,affectionate
+आवड,positive,1,liking
+आवडला,positive,2,liked (m)
+आवडली,positive,2,liked (f)
+आवडले,positive,2,liked (n/pl)
+आवडते,positive,2,like / favourite
+आवडतो,positive,2,like (m)
+आवडता,positive,2,favourite
+यश,positive,2,success
+यशस्वी,positive,2,successful
+विजय,positive,2,victory
+जिंकला,positive,2,won (m)
+जिंकली,positive,2,won (f)
+शुभ,positive,2,auspicious
+शुभेच्छा,positive,2,good wishes
+अभिनंदन,positive,2,congratulations
+धन्यवाद,positive,1,thanks
+आभार,positive,1,gratitude
+मदत,positive,1,help
+मदतशील,positive,2,helpful
+प्रामाणिक,positive,2,honest
+हुशार,positive,2,intelligent
+बुद्धिमान,positive,2,wise
+कौतुक,positive,2,praise
+प्रशंसनीय,positive,2,commendable
+अभिमान,positive,2,pride
+आदर,positive,2,respect
+आदरणीय,positive,2,respected
+सन्मान,positive,2,honour
+गौरव,positive,2,glory
+शांत,positive,1,calm
+शांती,positive,1,peace
+समाधान,positive,2,satisfaction
+समाधानी,positive,2,satisfied
+स्वच्छ,positive,1,clean
+ताजा,positive,1,fresh (m)
+ताजे,positive,1,fresh (n/pl)
+स्वादिष्ट,positive,2,delicious
+चविष्ट,positive,2,tasty
+रुचकर,positive,2,flavourful
+गोड,positive,2,sweet
+सोपा,positive,1,easy (m)
+सोपी,positive,1,easy (f)
+सोपे,positive,1,easy (n/pl)
+सुरक्षित,positive,1,safe
+निरोगी,positive,2,healthy
+मैत्रीपूर्ण,positive,2,friendly
+दयाळू,positive,2,kind
+नम्र,positive,1,polite
+विश्वास,positive,1,trust
+विश्वासू,positive,2,trustworthy
+उत्साह,positive,2,enthusiasm
+उत्साही,positive,2,enthusiastic
+प्रगती,positive,2,progress
+सुधारणा,positive,1,improvement
+फायदा,positive,2,benefit
+फायदेशीर,positive,2,profitable
+लाभ,positive,1,gain
+उपयुक्त,positive,2,useful
+उपयोगी,positive,2,helpful
+योग्य,positive,1,appropriate
+बरोबर,positive,1,correct
+खरा,positive,1,true
+सत्य,positive,1,truth
+धाडसी,positive,2,brave
+शूर,positive,2,valiant
+हसरा,positive,2,smiling
+हसू,positive,1,smile
+हास्य,positive,1,laughter
+आरामदायक,positive,2,comfortable
+आरामदायी,positive,2,comfortable
+जलद,positive,1,fast
+वेगवान,positive,1,speedy
+स्वस्त,positive,1,cheap
+परवडणारा,positive,1,affordable
+दर्जेदार,positive,2,high quality
+प्रेरणादायी,positive,2,inspiring
+सकारात्मक,positive,2,positive
+आशा,positive,1,hope
+आशावादी,positive,2,optimistic
+मनोरंजक,positive,2,entertaining
+रंजक,positive,2,interesting
+रोचक,positive,2,intriguing
+मजा,positive,2,fun
+मजेदार,positive,2,funny
+समृद्ध,positive,2,prosperous
+सोयीस्कर,positive,2,convenient
+कार्यक्षम,positive,2,efficient
+सक्षम,positive,2,capable
+मेहनती,positive,2,hardworking
+सुसंस्कृत,positive,2,cultured
+वाईट,negative,-2,bad
+खराब,negative,-2,poor / spoiled
+निकृष्ट,negative,-3,inferior
+सुमार,negative,-2,mediocre
+घाण,negative,-2,dirt
+घाणेरडा,negative,-2,dirty (m)
+घाणेरडे,negative,-2,dirty (n/pl)
+अस्वच्छ,negative,-2,unclean
+दुःख,negative,-2,sorrow
+दुःखी,negative,-2,sad
+उदास,negative,-2,gloomy
+निराश,negative,-2,disappointed
+निराशा,negative,-2,disappointment
+निराशाजनक,negative,-2,disappointing
+राग,negative,-2,anger
+रागावला,negative,-2,got angry
+संताप,negative,-2,rage
+संतापजनक,negative,-3,infuriating
+भीती,negative,-2,fear
+भयानक,negative,-3,terrible
+भयंकर,negative,-3,horrible
+भीषण,negative,-3,dreadful
+धोका,negative,-2,danger
+धोकादायक,negative,-2,dangerous
+त्रास,negative,-2,trouble
+त्रासदायक,negative,-2,troublesome
+कंटाळा,negative,-1,boredom
+कंटाळवाणा,negative,-2,boring (m)
+कंटाळवाणे,negative,-2,boring (n/pl)
+बेकार,negative,-2,useless
+निरुपयोगी,negative,-2,worthless
+फालतू,negative,-2,rubbish
+अपयश,negative,-2,failure
+अपयशी,negative,-2,unsuccessful
+पराभव,negative,-2,defeat
+हरला,negative,-2,lost (m)
+हरली,negative,-2,lost (f)
+नुकसान,negative,-2,damage
+तोटा,negative,-2,loss
+महाग,negative,-1,expensive
+महागडा,negative,-1,costly
+कठीण,negative,-1,difficult
+अवघड,negative,-1,hard
+अशक्य,negative,-1,impossible
+आजार,negative,-2,illness
+आजारी,negative,-2,sick
+रोग,negative,-2,disease
+वेदना,negative,-2,pain
+मृत्यू,negative,-3,death
+अपघात,negative,-3,accident
+संकट,negative,-2,crisis
+चिंता,negative,-2,worry
+तणाव,negative,-2,stress
+भ्रष्ट,negative,-3,corrupt
+भ्रष्टाचार,negative,-3,corruption
+खोटा,negative,-2,false (m)
+खोटे,negative,-2,lies
+फसवणूक,negative,-3,fraud
+फसवा,negative,-2,deceitful
+लबाड,negative,-2,liar
+चोर,negative,-2,thief
+चोरी,negative,-2,theft
+हिंसा,negative,-3,violence
+गुन्हा,negative,-2,crime
+अन्याय,negative,-3,injustice
+क्रूर,negative,-3,cruel
+आळशी,negative,-2,lazy
+मूर्ख,negative,-2,foolish
+उद्धट,negative,-2,rude
+गर्विष्ठ,negative,-2,arrogant
+कमकुवत,negative,-1,weak
+अशक्त,negative,-1,feeble
+संथ,negative,-1,slow
+गोंधळ,negative,-1,confusion
+अस्वस्थ,negative,-2,uneasy
+बेचैन,negative,-2,restless
+एकाकी,negative,-2,lonely
+रडला,negative,-2,cried (m)
+रडली,negative,-2,cried (f)
+अश्रू,negative,-1,tears
+नकारात्मक,negative,-2,negative
+द्वेष,negative,-3,hatred
+तिरस्कार,negative,-3,contempt
+मत्सर,negative,-2,jealousy
+लाज,negative,-1,shame
+लाजिरवाणा,negative,-2,shameful
+अपमान,negative,-2,insult
+अपमानास्पद,negative,-3,insulting
+बदनामी,negative,-2,defamation
+तक्रार,negative,-1,complaint
+समस्या,negative,-1,problem
+अडचण,negative,-1,difficulty
+अडथळा,negative,-1,obstacle
+उशीर,negative,-1,delay
+बिघडला,negative,-2,broke down
+बिघडले,negative,-2,got spoiled
+तुटला,negative,-1,broken
+कडू,negative,-1,bitter
+बेचव,negative,-2,tasteless
+शिळे,negative,-2,stale
+गरिबी,negative,-2,poverty
+प्रदूषण,negative,-2,pollution
+दुष्काळ,negative,-3,drought
+युद्ध,negative,-3,war
+भांडण,negative,-2,quarrel
+असुरक्षित,negative,-2,unsafe
+अयोग्य,negative,-2,improper
+चूक,negative,-1,mistake
+चुकीचा,negative,-2,wrong (m)
+चुकीचे,negative,-2,wrong (n/pl)
+असमाधानी,negative,-2,dissatisfied
+नापसंत,negative,-2,disliked
+नावडता,negative,-2,disliked
+खूप,intensifier,1.5,very
+फार,intensifier,1.5,very much
+खूपच,intensifier,1.8,extremely
+फारच,intensifier,1.8,far too
+अतिशय,intensifier,2.0,exceedingly
+अत्यंत,intensifier,2.0,utmost
+अगदी,intensifier,1.5,absolutely
+एकदम,intensifier,1.5,totally
+सर्वात,intensifier,1.8,most
+जास्त,intensifier,1.3,more
+थोडा,intensifier,0.5,slightly (m)
+थोडी,intensifier,0.5,slightly (f)
+थोडे,intensifier,0.5,slightly (n/pl)
+किंचित,intensifier,0.5,a little
+जरा,intensifier,0.6,somewhat
+नाही,negation,-1,not
+नाहीत,negation,-1,are not
+नव्हता,negation,-1,was not (m)
+नव्हती,negation,-1,was not (f)
+नव्हते,negation,-1,were not
+नको,negation,-1,do not want
+नये,negation,-1,should not
+नसतो,negation,-1,is not usually
+नसते,negation,-1,is not usually
+न,negation,-1,not (prefix)
+शानदार,positive,2,splendid
+दणदणीत,positive,2,resounding
+ऐतिहासिक,positive,2,historic
+जखमी,negative,-2,injured
+ठार,negative,-3,killed
+हाल,negative,-2,hardship
