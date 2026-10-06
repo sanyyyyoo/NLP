@@ -2,6 +2,10 @@
 
 NLP mini-project (Artificial Intelligence and Data Science).
 
+**Live demo:** https://nlp-px41.onrender.com/
+
+> Hosted on Render's free tier: the first visit after a period of inactivity can take about 30 seconds while the server wakes up.
+
 Paste a Marathi or English newspaper headline/article and the app:
 
 1. **Detects the news section** — राजकारण (Politics), क्रीडा (Sports), अर्थकारण (Business), मनोरंजन (Entertainment),
